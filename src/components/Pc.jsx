@@ -89,12 +89,12 @@ export default function Pc() {
         setwin(null);
     };
     return (
-        <div>
+        <div className="com">
             <Board squares={values} onClick={handleComputerMove} />
 
             {win ? (
                 <>
-                    <h3>{win} is the win </h3>
+                    <h3>{win} is the winner </h3>
                     <button className="btn" onClick={newGame}>
                         New Game{" "}
                     </button>

@@ -2,6 +2,9 @@
     padding: 0.6em 2em;
     border: none;
     outline: none;
+    width: 300px;
+    height: 100px;
+    font-size: 25px;
     color: rgb(255, 255, 255);
     background: #111;
     cursor: pointer;
@@ -16,6 +19,7 @@
 
 .me{
     text-align: center;
+    margin-top: 200px;
 }
 
 .btn:before {
@@ -56,4 +60,8 @@
     left: 0;
     top: 0;
     border-radius: 10px;
+}
+
+.game-info{
+    text-align: center;
 }
