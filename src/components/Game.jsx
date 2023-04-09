@@ -64,7 +64,7 @@ export default function Game(props) {
                         </div>
                     ) : (
                         <div>
-                            <Board squareares={values} onClick={onClick} />
+                            <Board squares={values} onClick={onClick} />
                             You play against a friend
                             {win ? (
                                 <>
@@ -87,7 +87,7 @@ export default function Game(props) {
                         </div>
                     )
                 ) : (
-                    <div>
+                    <div className="me">
                         <button className="btn"  onClick={() => setGameMode("play-vs-computer")}>
                             Play Vs Pc
 

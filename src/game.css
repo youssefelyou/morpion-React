@@ -11,6 +11,11 @@
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
+
+}
+
+.me{
+    text-align: center;
 }
 
 .btn:before {
